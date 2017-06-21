@@ -48,7 +48,7 @@ return array(
 	/**
 	 * Default location for the file cache
 	 */
-	// 'cache_dir'       => APPPATH.'cache/',
+ 'cache_dir'       => '/fuel/cache/',
 
 	/**
 	 * Settings for the file finder cache (the Cache class has it's own config!)
@@ -107,6 +107,7 @@ return array(
 	 */
 	// 'log_threshold'    => Fuel::L_WARNING,
 	// 'log_path'         => APPPATH.'logs/',
+	'log_path'         => '/fuel/logs/',
 	// 'log_date_format'  => 'Y-m-d H:i:s',
 
 	/**
